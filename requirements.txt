@@ -1,7 +1,6 @@
 asgiref==3.8.1
 Brlapi==0.8.2
 chardet==4.0.0
-cockpit @ file:///builddir/build/BUILD/cockpit-323.1/tmp/wheel/cockpit-323.1-py3-none-any.whl
 cupshelpers==1.0
 dasbus==1.4
 dbus-python==1.2.18
