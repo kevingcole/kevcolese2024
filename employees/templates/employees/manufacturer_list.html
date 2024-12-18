@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manufacturer List</title>
+</head>
+<body>
+    <h1>Manufacturers</h1>
+    <ul>
+        {% for manufacturer in manufacturers %}
+        <li>
+            {{ manufacturer.name }} <br>
+            Email: {{ manufacturer.contact_email }} <br>
+            Phone: {{ manufacturer.phone_number }} <br>
+            Address: {{ manufacturer.address }}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

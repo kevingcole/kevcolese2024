@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Asset List</title>
+</head>
+<body>
+    <h1>Assets</h1>
+    <ul>
+        {% for asset in assets %}
+        <li>
+            {{ asset.name }} ({{ asset.serial_number }}) <br>
+            Manufacturer: {{ asset.manufacturer.name }} <br>
+            Assigned to: {{ asset.assigned_to.first_name }} {{ asset.assigned_to.last_name }}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
